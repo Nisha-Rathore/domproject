@@ -21,8 +21,8 @@
 <div>
     <h1>Project 3 :</h1>
     <p id="style">Click me</p>
-    <p class="classListAdd">Click me</p>
-    <p id="classListRemove">Click me</p>
+    <p id="classListAdd">Click me</p>
+    <p id="classListRemove" class="remove">Click me</p>
     <p id="classListtoggle">Click me</p>
 </div>
 
@@ -30,6 +30,21 @@
 <button onclick="changeText()">Click</button>
 <button onclick="project2()">Update</button>
 <button onclick="project3()">Style Controller</button>
+<style>
+    .active{
+        color: aliceblue;
+        background-color: black;
+    }
+    .highlight {
+        background-color: aquamarine;
+        color: rgb(150, 79, 79);
+    }
+    .remove{
+         background-color: rgb(84, 230, 203);
+         color: black;
+
+    }
+</style>
 
 </body>
   <script src="../scripts/script.js"></script>
